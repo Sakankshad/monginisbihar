@@ -80,6 +80,11 @@
         option10.value = "Barh";
         secondDropdown.add(option10);
 
+        var option11 = document.createElement("option");
+        option11.text = "Punpun";
+        option11.value = "Punpun";
+        secondDropdown.add(option11);
+
       } else if (category === "Muzaffarpur") {
         var optionAll = document.createElement("option");
         optionAll.text = "All";
