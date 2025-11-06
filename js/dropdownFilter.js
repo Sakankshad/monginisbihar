@@ -96,16 +96,10 @@
         option1.value = "Muzaffarpur1";
         secondDropdown.add(option1);
 
-      } else if (category === "Darbhanga") {
-        var optionAll = document.createElement("option");
-        optionAll.text = "All";
-        optionAll.value = "all";
-        secondDropdown.add(optionAll);
-
-        var option1 = document.createElement("option");
-        option1.text = "Darbhanga";
-        option1.value = "Darbhanga1";
-        secondDropdown.add(option1);
+        var option2 = document.createElement("option");
+        option2.text = "Motipur";
+        option2.value = "Motipur";
+        secondDropdown.add(option2);
 
       } else if (category === "Vaishali") {
         var optionAll = document.createElement("option");
@@ -159,6 +153,21 @@
         option5.value = "Mashrakh";
         secondDropdown.add(option5);
 
+        var option6 = document.createElement("option");
+        option6.text = "Garkha";
+        option6.value = "Garkha";
+        secondDropdown.add(option6);
+
+        var option7 = document.createElement("option");
+        option7.text = "Nagra";
+        option7.value = "Nagra";
+        secondDropdown.add(option7);
+
+        var option8 = document.createElement("option");
+        option8.text = "Marhowrah";
+        option8.value = "Marhowrah";
+        secondDropdown.add(option8);
+
       } else if (category === "Siwan") {
         var optionAll = document.createElement("option");
         optionAll.text = "All";
@@ -180,6 +189,21 @@
         option3.value = "Andar";
         secondDropdown.add(option3);
 
+        var option4 = document.createElement("option");
+        option4.text = "Mairwa";
+        option4.value = "Mairwa";
+        secondDropdown.add(option4);
+
+        var option5 = document.createElement("option");
+        option5.text = "Barharia";
+        option5.value = "Barharia";
+        secondDropdown.add(option5);
+
+        var option6 = document.createElement("option");
+        option6.text = "Basantpur";
+        option6.value = "Basantpur";
+        secondDropdown.add(option6);
+
       } else if (category === "Gopalganj") {
         var optionAll = document.createElement("option");
         optionAll.text = "All";
@@ -196,6 +220,16 @@
         option2.value = "Mirganj";
         secondDropdown.add(option2);
 
+        var option3 = document.createElement("option");
+        option3.text = "Dighwa Dubauli";
+        option3.value = "Dighwa-Dubauli";
+        secondDropdown.add(option3);
+
+        var option4 = document.createElement("option");
+        option4.text = "Hathua";
+        option4.value = "Hathua";
+        secondDropdown.add(option4);
+
     } else if (category === "East-Champaran") {
         var optionAll = document.createElement("option");
         optionAll.text = "All";
@@ -206,6 +240,21 @@
         option1.text = "Motihari";
         option1.value = "Motihari";
         secondDropdown.add(option1);
+
+        var option2 = document.createElement("option");
+        option2.text = "Areraj";
+        option2.value = "Areraj";
+        secondDropdown.add(option2);
+
+        var option3 = document.createElement("option");
+        option3.text = "Chakia";
+        option3.value = "Chakia";
+        secondDropdown.add(option3);
+
+        var option4 = document.createElement("option");
+        option4.text = "Raxaul";
+        option4.value = "Raxaul";
+        secondDropdown.add(option4);
 
       } else if (category === "Sitamarhi") {
         var optionAll = document.createElement("option");
@@ -269,7 +318,7 @@
         secondDropdown.add(optionAll);
 
         var option1 = document.createElement("option");
-        option1.text = "Gaya";
+        option1.text = "Gaya Jee";
         option1.value = "Gaya1";
         secondDropdown.add(option1);
 
@@ -277,11 +326,6 @@
         option2.text = "Bodh Gaya";
         option2.value = "Bodh-Gaya";
         secondDropdown.add(option2);
-
-        var option3 = document.createElement("option");
-        option3.text = "Delha";
-        option3.value = "Delha";
-        secondDropdown.add(option3);
 
     } else if (category === "Nalanda") {
         var optionAll = document.createElement("option");
@@ -293,6 +337,26 @@
         option1.text = "Bihar Sarif";
         option1.value = "Bihar-Sarif";
         secondDropdown.add(option1);
+
+        var option2 = document.createElement("option");
+        option2.text = "Chandi";
+        option2.value = "Chandi";
+        secondDropdown.add(option2);
+
+        var option3 = document.createElement("option");
+        option3.text = "Islampur";
+        option3.value = "Islampur";
+        secondDropdown.add(option3);
+
+        var option4 = document.createElement("option");
+        option4.text = "Rajgir";
+        option4.value = "Rajgir";
+        secondDropdown.add(option4);
+
+        var option5 = document.createElement("option");
+        option5.text = "Harnaut";
+        option5.value = "Harnaut";
+        secondDropdown.add(option5);
 
       } else if (category === "Nawada") {
         var optionAll = document.createElement("option");
@@ -336,6 +400,66 @@
         var option1 = document.createElement("option");
         option1.text = "Bettiah";
         option1.value = "Bettiah";
+        secondDropdown.add(option1);
+
+      } else if (category === "Purnia") {
+        var optionAll = document.createElement("option");
+        optionAll.text = "All";
+        optionAll.value = "all";
+        secondDropdown.add(optionAll);
+
+        var option1 = document.createElement("option");
+        option1.text = "Purnia";
+        option1.value = "Purnia1";
+        secondDropdown.add(option1);
+
+      } else if (category === "Bhagalpur") {
+        var optionAll = document.createElement("option");
+        optionAll.text = "All";
+        optionAll.value = "all";
+        secondDropdown.add(optionAll);
+
+        var option1 = document.createElement("option");
+        option1.text = "Bhagalpur";
+        option1.value = "Bhagalpur1";
+        secondDropdown.add(option1);
+
+        var option2 = document.createElement("option");
+        option2.text = "Kahalgaon";
+        option2.value = "Kahalgaon";
+        secondDropdown.add(option2);
+
+      } else if (category === "Munger") {
+        var optionAll = document.createElement("option");
+        optionAll.text = "All";
+        optionAll.value = "all";
+        secondDropdown.add(optionAll);
+
+        var option1 = document.createElement("option");
+        option1.text = "Munger";
+        option1.value = "Munger1";
+        secondDropdown.add(option1);
+
+      } else if (category === "Samastipur") {
+        var optionAll = document.createElement("option");
+        optionAll.text = "All";
+        optionAll.value = "all";
+        secondDropdown.add(optionAll);
+
+        var option1 = document.createElement("option");
+        option1.text = "Samastipur";
+        option1.value = "Samastipur1";
+        secondDropdown.add(option1);
+
+      } else if (category === "Lakhisarai") {
+        var optionAll = document.createElement("option");
+        optionAll.text = "All";
+        optionAll.value = "all";
+        secondDropdown.add(optionAll);
+
+        var option1 = document.createElement("option");
+        option1.text = "Lakhisarai";
+        option1.value = "Lakhisarai1";
         secondDropdown.add(option1);
 
       }
